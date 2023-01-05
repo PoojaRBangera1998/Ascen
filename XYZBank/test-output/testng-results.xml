@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11462" started-at="2022-07-20T15:23:44 IST" finished-at="2022-07-20T15:23:56 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11462" started-at="2022-07-20T15:23:44 IST" finished-at="2022-07-20T15:23:56 IST">
+      <class name="Bank.Tc_001Test">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:Bank.Tc_001Test@3043fe0e]" name="openTheBrowser" is-config="true" duration-ms="6064" started-at="2022-07-20T15:23:44 IST" finished-at="2022-07-20T15:23:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:Bank.Tc_001Test@3043fe0e]" name="navigateToApplication" is-config="true" duration-ms="2943" started-at="2022-07-20T15:23:50 IST" finished-at="2022-07-20T15:23:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="Bank()[pri:0, instance:Bank.Tc_001Test@3043fe0e]" name="Bank" duration-ms="2387" started-at="2022-07-20T15:23:53 IST" finished-at="2022-07-20T15:23:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bank -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:Bank.Tc_001Test@3043fe0e]" name="closeTheBrowser" is-config="true" duration-ms="0" started-at="2022-07-20T15:23:56 IST" finished-at="2022-07-20T15:23:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- Bank.Tc_001Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
